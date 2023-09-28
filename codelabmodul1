@@ -1,3 +1,5 @@
+//html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,3 +47,48 @@
     </div>
 </body>
 </html>
+
+//html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="codelab2.css">
+    <title>CODELAB  II</title>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Alamat</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>MUHAMMAD FIKRY</td>
+                <td>202110370311448</td>
+                <td>DAMPIT</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+
+//css
+
+.container{
+    padding: 40px;
+}
+
+table, tr, th, td{
+    border: 1px solid;
+    padding: 5px;
+    background-color: gold;
+    color: black;
+}
+
+
